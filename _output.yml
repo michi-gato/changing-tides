@@ -1,0 +1,12 @@
+
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Dòng Triều Đổi Thay (Changing Tides)</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
+bookdown::epub_book: default
+bookdown::bs4_book: default
